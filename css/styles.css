@@ -64,6 +64,7 @@ footer {
   padding-left: 10px;
 }
 
+/*Mixin*/
 .index {
   display: flex;
   flex-direction: column;
@@ -202,11 +203,10 @@ button:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 60%;
 }
-.contact .mb-3 .btn btn-outline-secondary {
+.contact .mb-3 .button {
   color: #a5a9ab;
-  pointer-events: none;
   background-color: #444444;
   border-color: #a5a9ab;
   opacity: var(--bs-btn-disabled-opacity);

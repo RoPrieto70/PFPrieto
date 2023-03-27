@@ -1,6 +1,10 @@
+/*Mixin*/
 @import "colores";
 @import "margins";
 @import "estructura";
+
+
+
 
 .index	{
     display: flex;
@@ -155,11 +159,11 @@ button:hover{
             display: flex;
             flex-direction: column;
             align-items: center;
-            width: 100%;
+            width: 60%;
         }       
-        .btn btn-outline-secondary {
+        
+        .button{
             color: #a5a9ab;
-            pointer-events: none;
             background-color: #444444;
             border-color: #a5a9ab;
             opacity: var(--bs-btn-disabled-opacity);
